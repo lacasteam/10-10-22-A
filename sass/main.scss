@@ -1,0 +1,13 @@
+$primary : rgb(119, 0, 255);
+$warning : brown;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$lacaste-theme-colors: (
+    "cool": pink,
+    "allen": cyan);
+
+$theme-colors: map-merge($lacaste-theme-colors, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
